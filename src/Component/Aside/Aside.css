@@ -1,7 +1,7 @@
 aside{
-    width: 50px;
+    width: 60px;
     height: 100vh;
-    background-color: gray;
+    background-color: #1a1a1a;
     border-right: 1px solid #ccc;
     display: flex;
     flex-direction: column;

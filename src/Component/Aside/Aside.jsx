@@ -7,16 +7,16 @@ import React, { useState } from 'react'
 const Aside = () => {
     const [open, setOpen] = useState(false)
     const [ShowP , setShowP] = useState("none")
-    const [Width , setWidth] = useState("50px")
+    const [Width , setWidth] = useState("60px")
     function openAside(){
         if(open){
             setOpen(false)
             setShowP("none")
-            setWidth("50px")
+            setWidth("60px")
         }else{
             setOpen(true)
             setShowP("block")
-            setWidth("100px")
+            setWidth("150px")
         }
     }
   return (
