@@ -1,8 +1,6 @@
 aside{
     width: 60px;
-    height: 100vh;
     background-color: #1a1a1a;
-    border-right: 1px solid #ccc;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -44,7 +42,6 @@ aside p{
     cursor: pointer;
 }
 .top h6{
-    display: none;
     color: #fff;
     margin: 0;
 }

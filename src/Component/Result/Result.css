@@ -1,0 +1,58 @@
+main{
+    width: 100%;
+}
+.Result{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow-y: scroll;
+    max-height: 70svh;
+}
+.Result::-webkit-scrollbar{
+    display: none;
+}
+.ResultTitle{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.ResulData{
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    color: #fff;
+}
+.user-img,
+.DataImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.loader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.loader hr{
+    border-radius: 4px;
+    border: none;
+    height: 20px;
+    background-color: black;
+    background-size: 1000px 80px;
+    background: linear-gradient(to right, #4b90ff , #fff , #4b90ff );
+    animation: Loader 3s linear infinite;
+}
+
+@keyframes Loader {
+    0%{
+        background-position: -1000px 0;
+    }
+    100%{
+        background-position: 1000px 0;
+    }
+}
